@@ -41,6 +41,9 @@ console.log('Last on my list of favorite foods is:',me.favThreeFoods[me.favThree
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
+console.log('I currently have', me.shoeCount, 'shoes');
+me.shoeCount += 1;
+console.log('I bought one more shoe! Now I have', me.shoeCount, 'shoes');
 
 
 /* 5. Add a new property to an existing object.
@@ -49,3 +52,5 @@ console.log('Last on my list of favorite foods is:',me.favThreeFoods[me.favThree
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'sunset pink';
+console.log('with the new attribute of favorite color, the \'me\' object is:', me);
