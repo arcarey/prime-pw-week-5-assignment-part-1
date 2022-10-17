@@ -1,4 +1,4 @@
-console.log('***** Object Practice *****')
+console.log("***** Object Practice *****");
 
 // Add the required code to complete the tasks below
 
@@ -10,13 +10,13 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
-  'firstName': 'Andrew',
-  'lastName' : 'Carey',
-  'hasSiblings' : true,
-  'shoeCount' : 28,
-  'favThreeFoods': ['clam chowder', 'ribs', 'smoked salmon']
+  firstName: "Andrew",
+  lastName: "Carey",
+  hasSiblings: true,
+  shoeCount: 28,
+  favThreeFoods: ["clam chowder", "ribs", "smoked salmon"],
 };
-console.log('A little about me:', me);
+console.log("A little about me:", me);
 
 /* 2. Accessing object properties.
   - Create a variable called fullName 
@@ -24,16 +24,18 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-const fullName = `${me.firstName} ${me.lastName}`
-console.log('My full name is:', fullName);
-
+const fullName = `${me.firstName} ${me.lastName}`;
+console.log("My full name is:", fullName);
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-console.log('First on my list of favorite foods is:', me.favThreeFoods[0]);
-console.log('Last on my list of favorite foods is:',me.favThreeFoods[me.favThreeFoods.length-1]);
+console.log("First on my list of favorite foods is:", me.favThreeFoods[0]);
+console.log(
+  "Last on my list of favorite foods is:",
+  me.favThreeFoods[me.favThreeFoods.length - 1]
+);
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
@@ -41,10 +43,9 @@ console.log('Last on my list of favorite foods is:',me.favThreeFoods[me.favThree
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
-console.log('I currently have', me.shoeCount, 'shoes');
+console.log("I currently have", me.shoeCount, "shoes");
 me.shoeCount += 1;
-console.log('I bought one more shoe! Now I have', me.shoeCount, 'shoes');
-
+console.log("I bought one more shoe! Now I have", me.shoeCount, "shoes");
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -52,5 +53,8 @@ console.log('I bought one more shoe! Now I have', me.shoeCount, 'shoes');
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
-me.favoriteColor = 'sunset pink';
-console.log('with the new attribute of favorite color, the \'me\' object is:', me);
+me.favoriteColor = "sunset pink";
+console.log(
+  "with the new attribute of favorite color, the 'me' object is:",
+  me
+);
